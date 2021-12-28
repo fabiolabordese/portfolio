@@ -1,4 +1,31 @@
-baseURL = "http://fabiolabordese.com/"
-languageCode = "en-us"
+## -----------------------------------------------
+## Basic Configuration
+## -----------------------------------------------
+
 title = "Fabiola Bordese"
 theme = "hugo-story"
+
+
+## -----------------------------------------------
+## Hugo Built-in Features
+## -----------------------------------------------
+
+disableKinds = ["taxonomy", "taxonomyTerm", "section"]
+# googleAnalytics = "your-google-analytics-id"
+
+
+## -----------------------------------------------
+## Site Parameters
+## -----------------------------------------------
+
+[Params]
+  description = "A (modular, highly tweakable) responsive one-page theme for Hugo"
+  logo = "images/banner.jpg"
+  favicon = true
+
+[Params.social]
+  github = "https://github.com/fabiolabordese/"
+  twitter = "https://twitter.com/FabiolaBordese"
+  email = "fabiolabordese@gmail.com"
+  instagram = "https://instagram.com/f_bordeaux"
+  linkedin = "https://www.linkedin.com/in/fabiola-bordese-95209788"
